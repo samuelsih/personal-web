@@ -36,7 +36,7 @@
 
             <div>
                 <button class="btn-home px-4 py-3 md:px-6 md:py-4">
-                    <a href="{{ route('navbar.home') }}">Back to Home<i class="fab fa-arrow-right"></i></a>
+                    <a href="{{ route('navbar.home') }}">Back to Home <i class="fa fa-arrow-right"></i></a>
                 </button>
             </div>
 

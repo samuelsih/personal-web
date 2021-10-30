@@ -4,9 +4,11 @@
 
 @section('content')
 
-<main class="flex flex-col space-y-5 w-full mt-8">
-    <h1 class="uppercase md:text-center">Dummy Coffee</h2>
+<article class="mt-4 text-center mb-4">
+    <h1 class="uppercase text-center">Dummy Coffee</h1>
+</article>
 
+<main class="flex flex-col space-y-5 w-full mt-6">
     <article class="tracking-wide leading-normal space-y-5">
         <h2>Description</h3>
         <p class="font-semibold">This is my first project with PHP, and also transition from non relational databases to relational databases. I built this website with native / vanilla PHP. I also try bootstrap framework which is speed up my frontend view.</p>
@@ -56,13 +58,14 @@
             </div>
 
         </div>
+
+        <p>Click <a href="https://youtu.be/qzae1VeWfoA" target="_blank" rel="noopener noreferrer">Here</a> to Watch Demo</p>
     </article>
 
-    <div class="max-w-full h-72 md:h-80 lg:h-96 flex flex-col">
-        <link rel="preconnect" href="https://www.youtube-nocookie.com">
-        <link rel="preconnect" href="https://www.google.com">
-        <iframe src="https://www.youtube.com/embed/qzae1VeWfoA" title="Demo Dummy Coffee" frameborder="0"  allowfullscreen class="w-3/4 h-full mx-auto"></iframe>
-    </div>
+
 </main>
+
+
+
 
 @endsection

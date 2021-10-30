@@ -3,8 +3,12 @@
 @section('title', 'Projects - Find Dosen')
 
 @section('content')
+
+<article class="mt-4 text-center mb-4">
+    <h1 class="uppercase text-center ">Find Dosen</h1>
+</article>
+
 <main class="flex flex-col space-y-5 w-full mt-8">
-    <h1 class="uppercase md:text-center">Find Dosen</h2>
 
     <article class="tracking-wide leading-normal space-y-5">
         <h2>Description</h3>
@@ -56,13 +60,11 @@
             </div>
 
         </div>
+
+        <p>Click <a href="https://youtu.be/ge0Q67mulXs" target="_blank" rel="noopener noreferrer">Here</a> to Watch Demo</p>
     </article>
 
-    <div class="max-w-full h-72 md:h-80 lg:h-96 flex flex-col relative">
-        <link rel="preconnect" href="https://www.youtube-nocookie.com">
-        <link rel="preconnect" href="https://www.google.com">
-        <iframe src="https://www.youtube-nocookie.com/embed/ge0Q67mulXs" title="Demo Find Dosen" frameborder="0"  allowfullscreen class="w-3/4 h-full mx-auto"></iframe>
-    </div>
+
 </main>
 
 @endsection
