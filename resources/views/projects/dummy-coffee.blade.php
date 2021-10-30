@@ -14,7 +14,7 @@
 
         <p class="font-semibold">I learn so many things with this project. I learn authentication in vanilla PHP, learn about how to integrate XAMPP along with PHP, and how to send mail.</p>
 
-        <p class="font-semibold">Mailing is the hardest for me from this project. When i find how to send mail using PHP, it recommends me <a href="#" class="text-text-secondary">PHPMailer</a>. So i find on youtube how to use PHPMailer. When i try it, so many errors and bugs happened to me. I spent so many times googling, find youtube videos, and of course stackoverflow. But i didn't get the answer. So i had to read the docs manually, and re-code my project from the beginning.
+        <p class="font-semibold">Mailing is the hardest for me from this project. When i find how to send mail using PHP, it recommends me <a href="https://github.com/PHPMailer/PHPMailer" class="text-text-secondary" target="_blank" rel="noopener noreferrer">PHPMailer</a>. So i find on youtube how to use PHPMailer. When i try it, so many errors and bugs happened to me. I spent so many times googling, find youtube videos, and of course stackoverflow. But i didn't get the answer. So i had to read the docs manually, and re-code my project from the beginning.
         </p>
 
         <p>At that point, i realize that if i can't find the answer of my errors, or i don't know the keyword to find it on Google, it is better to read the docs. </p>
