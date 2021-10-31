@@ -6,13 +6,13 @@
     min-height: 100vh;
   }
 
-  .layout-home {
+.layout-home {
     max-width: 50rem;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     min-height: 100vh;
-  }
+}
 
   @tailwind base;
   @tailwind components;

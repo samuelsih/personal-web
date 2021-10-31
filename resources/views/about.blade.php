@@ -68,7 +68,7 @@
     If you have any critics and suggestion on this website, share opinion about technologies etc., Don't hesitate to contact me at :
   </p>
 
-  <article class="text-left flex flex-row space-x-5">
+  <article class="text-left flex flex-row space-x-5 mb-8">
     @include('components.svg.about.contact')
   </article>
 
