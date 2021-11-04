@@ -11,6 +11,18 @@
 
 <section class="flex flex-col justify-evenly md:flex-row md:content-center m-auto md:mx-4 md:-my-1">
     <div class="bg-gray-200 shadow-md rounded-lg max-w-xs mb-5 md: mx-4 project__container">
+        <img src="{{ asset('img/shop-app.png') }}" alt="Shop App" class="rounded-t-lg">
+
+        <div class="p-5 text-gray-800">
+          <h5 class="font-bold text-xl tracking-tight mb-2">Shop App</h5>
+          <div class="flex flex-col justify-evenly">
+            <p class="font-normal text-gray-900 mb-3 text-sm"> Create e-commerce website with Laravel.</p>
+            <a href="{{ route('projects.shopApp') }}" class="font-normal">Find more <i class="fa fa-arrow-right"></i></a>
+          </div>
+        </div>
+    </div>
+
+    <div class="bg-gray-200 shadow-md rounded-lg max-w-xs mb-5 md: mx-4 project__container">
       <img src="{{ asset('img/dummy-coffee.png') }}" alt="Find Dosen" class="rounded-t-lg">
 
       <div class="p-5 text-gray-800">
@@ -31,6 +43,8 @@
           </div>
         </div>
     </div>
+
+
 </section>
 
 @endsection

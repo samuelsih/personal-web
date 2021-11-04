@@ -24,6 +24,7 @@ Route::get('/about', [NavbarController::class, 'about'])->name('navbar.about');
 // Projects Links
 Route::get('/projects/dummy-coffee', [ProjectController::class, 'dummyCoffee'])->name('projects.dummyCoffee');
 Route::get('/projects/find-dosen', [ProjectController::class, 'findDosen'])->name('projects.findDosen');
+Route::get('/projects/shop-app', [ProjectController::class, 'shopApp'])->name('projects.shopApp');
 
 // Route::get('/info', function() {
 //     return view('info');

@@ -15,4 +15,9 @@ class ProjectController extends Controller
     {
         return view('projects.find-dosen');
     }
+
+    public function shopApp()
+    {
+        return view('projects.shop-app');
+    }
 }
